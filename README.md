@@ -17,7 +17,31 @@ uv init
 uv venv
 uv add [package name]
 
+#to update and lock if package missing
+uv lock --upgrade
+uv sync
+
 ```
+
+### When initilaizing the repo 
+
+```bash
+
+git clone <your-repo-url>
+cd your-project
+
+curl -Ls https://astral.sh/uv/install.sh | sh
+
+uv venv #make the venv
+
+uv sync #to install all the dependecies
+
+source .venv/bin/activate   # Mac/Linux
+
+uv run main.py
+
+```
+
 
 
 
