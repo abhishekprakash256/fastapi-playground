@@ -9,6 +9,17 @@ The fastapi playground repo is developed for testing the fastapi for the login s
 - uv package manager
 
 
+### UV steps -- 
+
+```bash
+
+uv init
+uv venv
+uv add [package name]
+
+```
+
+
 
 ### Links -- 
 
