@@ -1,0 +1,9 @@
+[project]
+name = "fastapi-playground"
+version = "0.1.0"
+description = "repo to test the fast api"
+readme = "README.md"
+requires-python = ">=3.10.0"
+dependencies = [
+    "fastapi>=0.135.1",
+]
