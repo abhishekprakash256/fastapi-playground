@@ -9,8 +9,13 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+@app.get("/api/public")
+def public():
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+   result = {
+       "status": "success",
+       "msg": ("Hello from a public endpoint! You don't need to be "
+               "authenticated to see this.")
+   }
+   return result
 
