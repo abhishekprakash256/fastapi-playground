@@ -4,8 +4,9 @@ The fast api main app
 
 """
 
-
 from fastapi import FastAPI
+from fastapi_plugin.fast_api_client import Auth0FastAPI
+from application.config import get_settings
 
 app = FastAPI()
 

@@ -12,12 +12,3 @@ class Settings(BaseSettings):
 @lru_cache()
 def get_settings():
    return Settings()
-
-
-
-
-settings = get_settings()
-auth0 = Auth0FastAPI(
-   domain=settings.auth0_domain,
-   audience=settings.auth0_api_audience
-)

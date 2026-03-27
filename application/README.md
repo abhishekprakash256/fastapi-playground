@@ -3,11 +3,12 @@
 The fastapi playground repo is developed for testing the fastapi for the login system using the auth 0 and integrate in the frontend when users login 
 
 
-### For the FAST Api 
+### For the FAST Api running
 
 ```bash
 
-fastapi dev
+cd fastapi-playground
+uvicorn application.main:app --reload
 
 ```
 
