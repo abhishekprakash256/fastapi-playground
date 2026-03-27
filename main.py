@@ -18,4 +18,3 @@ def public():
                "authenticated to see this.")
    }
    return result
-
