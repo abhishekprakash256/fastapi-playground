@@ -52,6 +52,12 @@ uv run main.py
 
 ```
 
+
+## Notes -- 
+
+- .env file should be in the root level
+- pyproject.toml and uv.lock should be in root level as well
+
 ### End Points -- 
 
 - http://127.0.0.1:8000/api/public

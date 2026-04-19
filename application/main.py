@@ -35,9 +35,8 @@ def public():
    }
    return result
 
-"""
+
 @app.get("/api/private")
 def private(claims: dict = Depends(auth0.require_auth())):
    # A valid access token is required to access this route
    return claims
-"""
