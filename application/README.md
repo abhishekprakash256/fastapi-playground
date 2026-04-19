@@ -53,6 +53,13 @@ uv run main.py
 ```
 
 
+## Testing in the Postman --
+
+- In the postman use POST request 
+- get the token and use in the GET request in http://127.0.0.1:8000/api/private pass as bearer token
+
+
+
 ## Notes -- 
 
 - .env file should be in the root level
