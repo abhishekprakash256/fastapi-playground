@@ -518,6 +518,7 @@ dependencies = [
     { name = "auth0-fastapi-api" },
     { name = "fastapi", extra = ["standard"] },
     { name = "pydantic-settings" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -525,6 +526,7 @@ requires-dist = [
     { name = "auth0-fastapi-api", specifier = ">=1.0.0b6" },
     { name = "fastapi", extras = ["standard"], specifier = ">=0.135.1" },
     { name = "pydantic-settings", specifier = ">=2.13.1" },
+    { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
 [[package]]

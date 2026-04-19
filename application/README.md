@@ -8,8 +8,8 @@ The fastapi playground repo is developed for testing the fastapi for the login s
 ```bash
 
 cd fastapi-playground
-uvicorn application.main:app --reload
-
+uvicorn application.main:app --reload   #when using the folder application
+uvicorn app:app --reload       #when using the folder name app
 ```
 
 
